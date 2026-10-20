@@ -1,6 +1,4 @@
-
 import { Link } from 'react-router-dom'
-import { Home, Cardapio } from 'lucide-react'
 
 const NavBar = () => {
     return (
@@ -12,8 +10,8 @@ const NavBar = () => {
                     </div>
 
                     <div className="hidden md:flex space-x-2 items-center">
-                        <Link to="/" className="flex items-center gap-2 px-3 py-2 font-medium hover:text-[#46220f]"><Home /> Página principal </Link>
-                        <Link to="/sobre" className="flex items-center gap-2 px-3 py-2 font-medium hover:text-[#46220f]"><Cardapio />Cardápio da Cafeteria</Link>
+                        <Link to="/" className="flex items-center gap-2 px-3 py-2 font-medium hover:text-[#46220f]">Página principal</Link>
+                        <Link to="/produtos" className="flex items-center gap-2 px-3 py-2 font-medium hover:text-[#46220f]">Cardápio da Cafeteria</Link>
                     </div>
 
                 </div>
